@@ -11,5 +11,15 @@
 
 
 // IFFE 
-require("./batman")
-require("./superman")
+// require("./batman")
+// require("./superman")
+
+const superhero = require("./super_hero")
+
+console.log(superhero.getName())
+
+superhero.setName("superman")
+console.log(superhero.getName())
+
+const newSuperhero = require("./super_hero")
+console.log(newSuperhero.getName())
