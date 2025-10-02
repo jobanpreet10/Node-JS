@@ -14,12 +14,16 @@
 // require("./batman")
 // require("./superman")
 
-const superhero = require("./super_hero")
+// const superhero = require("./super_hero")
 
-console.log(superhero.getName())
+// console.log(superhero.getName())
 
-superhero.setName("superman")
-console.log(superhero.getName())
+// superhero.setName("superman")
+// console.log(superhero.getName())
 
-const newSuperhero = require("./super_hero")
-console.log(newSuperhero.getName())
+// const newSuperhero = require("./super_hero")
+// console.log(newSuperhero.getName())
+
+
+const add = require("./math")
+console.log(add(5,6))
